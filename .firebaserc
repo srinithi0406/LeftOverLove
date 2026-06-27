@@ -1,5 +1,15 @@
 {
   "projects": {
     "default": "leftoverlove-66411"
-  }
+  },
+  "targets": {
+    "leftoverlove-66411": {
+      "hosting": {
+        "react": [
+          "leftoverlove-v2"
+        ]
+      }
+    }
+  },
+  "etags": {}
 }
