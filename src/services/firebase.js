@@ -7,13 +7,13 @@ import { getAuth } from 'firebase/auth';
 import { getDatabase } from 'firebase/database';
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDL7fAFhDpK7IMs7RfHjCOUA2GqeGwFG28",
-  authDomain: "leftoverlove-66411.firebaseapp.com",
-  projectId: "leftoverlove-66411",
-  storageBucket: "leftoverlove-66411.appspot.com",
-  messagingSenderId: "827705332491",
-  appId: "1:827705332491:web:80377501a6ff44253c880e",
-  databaseURL: "https://leftoverlove-66411-default-rtdb.asia-southeast1.firebasedatabase.app"
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
+  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
+  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
+  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
+  appId: import.meta.env.VITE_FIREBASE_APP_ID,
+  databaseURL: import.meta.env.VITE_FIREBASE_DATABASE_URL
 };
 
 const app = initializeApp(firebaseConfig);

@@ -52,7 +52,7 @@ Only authenticated users can post food or access their personal dashboard, ensur
 ---
 ## Live Site
 
-[Visit LeftOverLove](https://leftoverlove-66411.web.app/)
+[Visit LeftOverLove](https://leftoverlove-v2.web.app/)
 
 ---
 
